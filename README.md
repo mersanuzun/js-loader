@@ -2,12 +2,12 @@
 Load javascript files asynchronously
 
 # Install
-``` 
+```sh
 npm i @mersanuzun/js-loader
 ```
 
 # Usage
-``` 
+```javascript
 const JSLoader = require('@mersanuzun/js-loader');
 
 JSLoader.loadJS('https://code.jquery.com/jquery-3.5.0.min.js', () => {
