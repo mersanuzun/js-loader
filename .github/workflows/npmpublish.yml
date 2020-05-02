@@ -20,10 +20,10 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-      - run: npm build
+      - run: npm run build
       - run: git config user.email "mersanuzun@gmail.com"
       - run: git config user.name "Mehmet Ersan Uzun"
-      - run: npm version minor
+      - run: npm version patch
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
