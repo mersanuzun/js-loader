@@ -15,7 +15,7 @@ class JSLoader {
 
   static loadJSs(paths) {
     paths.forEach(pathObject => {
-      that.loadJS(pathObject.path, pathObject.cb, pathObject.async);
+      this.loadJS(pathObject.path, pathObject.cb, pathObject.async);
     });
   }
 }
