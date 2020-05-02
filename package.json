@@ -1,0 +1,21 @@
+{
+  "name": "@mersanuzun/js-loader",
+  "version": "1.0.0",
+  "description": "Load js files",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c rollup.config.js"
+  },
+  "keywords": [
+    "load",
+    "javascript",
+    "files"
+  ],
+  "author": "mersanuzun@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.7.6",
+    "rollup-plugin-terser": "^5.3.0"
+  }
+}
