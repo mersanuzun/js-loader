@@ -12,7 +12,7 @@ const JSLoader = require('@mersanuzun/js-loader');
 
 JSLoader.loadJS('https://code.jquery.com/jquery-3.5.0.min.js', () => {
   console.log('Done!');
-});
+}, false);
 
 JSLoader.loadJSs([
   {
